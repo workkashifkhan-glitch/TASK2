@@ -1,0 +1,142 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;;
+}
+/* body {
+  background: linear-gradient(
+    145deg, 
+    #ffffff 20%, 
+    #f8f8f8 45%, 
+    #ffffff 60%, 
+    #f2f2f2 90%
+  );
+  background-attachment: fixed;
+} */
+.container{
+    gap: 30px  ;
+    padding: 150px 0px;
+}
+h1{
+    font-weight: 600;
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-align: center;
+    /* padding: 10px; */
+    
+}
+h2{
+    font-weight: 100;
+    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    text-align: center;
+    color: rgb(100, 100, 100);
+    padding: 10px;
+}
+/* img{
+    padding: 20px;
+} */
+/* height: 100%;
+width: 100px; */
+
+/* clip-path: polygon(100% 0%, 0% 0% , 0% 80%, 20% 90%, 50% 70%, 80% 90%, 100% 80%); */
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.top1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    
+    /* justify-content: center; */
+}
+.top1 > div:first-child img{
+    width: 100%;
+    max-width: 600px;
+}
+/* .top1 h2{
+    font-weight: 100;
+} */
+.top1div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* gap: 20px; */
+}
+
+.top1div2{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.top1div2 > img{
+    width: 100%;
+    max-width: 400px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.mid1{
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    /* gap: 40px; */
+    align-items: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.mid1 > div:first-child img{
+    width: 100%;
+    max-width: 900px;
+}
+.mid1.reverse{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+}
+/* .mid1right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+ .midbottom{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px;
+    padding: 20px; */
+ }
+ .midbottomright{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 10px;
+ }
+ .midbottomright > div:first-child img{
+  width: auto;
+  max-width: 800px;
+ }
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer div{
+    display: flex;
+    gap: 30px;
+}
